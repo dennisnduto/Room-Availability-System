@@ -1,0 +1,111 @@
+.studentpage_body{
+    background-color: whitesmoke;
+    background-image: url(rooms.jpg);
+    background-size: cover;
+    
+    
+}
+.studentform{
+    background-color: rgba(221, 241, 164, 0.596);
+    width: 400px;
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    text-align: left;
+   
+    margin: auto;
+    
+}
+.studentheading{
+    color: lawngreen;
+    font-weight: bold;
+}
+.roomtype{
+    background-color: rgb(226, 255, 197);
+    border-radius: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.ggeneratebtn{
+    width: 200px;
+    height: 30px;
+ background-color: lawngreen;
+ border: none;
+ color: white;
+ font-weight: bold;
+ font-size: 12px;
+ border-radius: 5px;
+ margin-top: 30px;
+}
+.studentcontainer{
+   text-align: center;
+}
+.popup{
+    background-color: rgba(221, 241, 164, 0.596);
+    width: 400px;
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    text-align: left;
+   
+    margin: auto; 
+}
+.availables{
+    background-color: rgb(226, 255, 197, 0.596);
+    color: black;
+  
+    width: 400px;
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    text-align: left;
+   
+    margin: auto;
+    
+}
+.logoutbutton{
+    width: 200px;
+    height: 30px;
+ background-color: lawngreen;
+ border: none;
+ color: white;
+ font-weight: bold;
+ font-size: 12px;
+ border-radius: 5px;
+ margin-top: 30px;
+}
+.outputtable{
+    background-color: rgb(226, 255, 197, 0.596);
+    margin-top: 20px;
+    border: none;
+    padding: auto;
+    border-radius: 5px;
+    width: auto;
+}
+.logoutbtn{
+    align-content: center;
+    text-align: center;
+}
+.bookingdiv{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: lawngreen;
+}
+.bookbtn{
+    width: 100px;
+    height: 100px;
+ background-color: #598536;
+ border: none;
+ color: white;
+ font-weight: bold;
+ font-size: 12px;
+ border-radius: 5px;
+ margin-top: 30px; 
+}

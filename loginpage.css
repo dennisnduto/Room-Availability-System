@@ -1,0 +1,99 @@
+.welcome_note{
+    color:lawngreen;
+    font-size: 34px;
+
+}
+.login_form{
+    background-color: rgba(221, 241, 164, 0.596);
+    width: 300px;
+   
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    margin: auto;
+    
+
+
+}
+.sign_inbtn{
+    width: 200px;
+    height: 30px;
+ background-color: lawngreen;
+ border: none;
+ color: white;
+ font-weight: bold;
+ font-size: 12px;
+}
+.body_fom{
+    text-align: center;
+    background-color: whitesmoke;
+    background-image: url(rooms.jpg);
+    background-size: cover;
+    
+}
+.usernamelabel{
+    font-weight: bold;
+    font-size: 12px;
+    
+}
+.usernameplaceholder{
+    width: 250px;
+    height: 25px;
+}
+.passwordlabel{
+    font-weight: bold;
+    font-size: 12px;
+}
+.passwordplaceholder{
+    width: 250px;
+    height: 25px;
+}
+.signupspan{
+    color: lawngreen;
+    font-weight: bold;
+}
+.signupspan:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.submit{
+    width: 200px;
+    height: 30px;
+ background-color: lawngreen;
+ border: none;
+ color: white;
+ font-weight: bold;
+ font-size: 12px; 
+}
+.emaillable{
+    font-weight: bold;
+    font-size: 12px;   
+}
+.emailplaceholder{
+    width: 250px;
+    height: 25px;  
+}
+.signupdiv{
+    text-align: center;
+    margin: auto;
+   
+  
+}
+.fill_details{
+    color:lawngreen;
+    font-size: 20px;
+}
+.signinredirection{
+    color: lawngreen;
+}
+
+.roleselect{
+    background-color: rgb(226, 255, 197);
+    border-radius: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 3px;
+    padding-right: 3px;
+    width: 150px;
+    align-items: left;
+}

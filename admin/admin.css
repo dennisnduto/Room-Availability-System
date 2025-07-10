@@ -1,0 +1,327 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f4f7fa;
+    color: #676767;
+}
+
+.sidebar {
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    background: rgba(18, 19, 18, 0.596);;
+    color: #f7eeee;
+    transition: width 0.5s;
+}
+
+.sidebar-header {
+    padding: 20px;
+    background-color:rgba(9, 10, 9, 0.596);;
+    text-align: center;
+}
+
+.nav {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav a {
+    display: block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    transition: background 0.3s, padding-left 0.3s;
+}
+
+.nav a:hover {
+    background: #1e2d3b;
+    padding-left: 30px;
+}
+
+.main-content {
+    margin-left: 250px; /* Same as sidebar width */
+    padding: 20px;
+}
+
+.dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+.dashboard-actions .logout-button {
+    padding: 10px 20px;
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.dashboard-actions .logout-button:hover {
+    background-color: #c9302c;
+}
+
+.dashboard-stats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.stat-item {
+    flex-basis: calc(25% - 20px);
+    color: white;
+    padding: 20px;
+    border-radius: 4px;
+    transition: transform 0.3s;
+}
+
+.stat-item:hover {
+    transform: translateY(-5px);
+}
+
+@media (max-width: 768px) {
+    .sidebar {
+        width: 60px;
+    }
+
+    .sidebar-header {
+        display: none;
+    }
+
+    .nav a {
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .nav a:hover {
+        padding-left: 0;
+    }
+
+    .main-content {
+        margin-left: 60px;
+    }
+
+    .stat-item {
+        flex-basis: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 480px) {
+    .sidebar {
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+
+    .main-content {
+        margin: 0;
+    }
+
+    .stat-item {
+        flex-basis: 100%;
+    }
+}
+
+
+section {
+    width: 30%;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+.btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Add responsiveness to the form */
+@media (max-width: 768px) {
+    section {
+        width: 90%;
+    }
+}
+.manage{
+    width: 60%;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.manage_user{
+    width: 40%;
+    margin: 40px auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.modal-background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(226, 255, 197, 0.596);;
+  }
+  
+  .login-modal {
+    width: 100%;
+    max-width: 400px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative; 
+  }
+  
+  .avatar-container {
+    position: absolute;
+    top: -50px; 
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px; 
+    height: 100px; 
+    overflow: hidden;
+    border-radius: 50%; 
+    border: 4px solid #fff; 
+  }
+  
+  .avatar {
+    width: 100%;
+    height: auto;
+  }
+  
+  .login-section, .welcome-back {
+    text-align: center;
+  }
+  
+  input[type="email"], input[type="password"], input[type="text"] {
+    width: 50%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  .forgot-password{
+    display: block;
+    margin-top: 10px;
+  }
+
+   
+ 
+ .roomtype{
+    background-color: rgb(226, 255, 197);
+    border-radius: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 3px;
+    padding-right: 3px; 
+ }
+ .studentpage_body{
+    background-color: whitesmoke;
+    background-image: url(rooms.jpg);
+    background-size: cover;
+    
+    
+}
+.studentform{
+    background-color: rgba(221, 241, 164, 0.596);
+    width: 400px;
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    text-align: left;
+   
+    margin: auto;
+    
+}
+.studentheading{
+    color: lawngreen;
+    font-weight: bold;
+}
+.roomtype{
+    background-color: rgb(226, 255, 197);
+    border-radius: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.ggeneratebtn{
+    width: 200px;
+    height: 30px;
+ background-color: lawngreen;
+ border: none;
+ color: white;
+ font-weight: bold;
+ font-size: 12px;
+ border-radius: 5px;
+ margin-top: 30px;
+}
+.studentcontainer{
+   text-align: center;
+}
+.popup{
+    background-color: rgba(221, 241, 164, 0.596);
+    width: 400px;
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    text-align: left;
+   
+    margin: auto; 
+}
+.availables{
+    background-color: rgb(226, 255, 197, 0.596);
+    color: black;
+  
+    width: 400px;
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    text-align: left;
+   
+    margin: auto;
+    
+}
+.logoutbutton{
+    background-color: lawngreen;
+    font-weight: bold;
+    margin-top: 20px;
+    border: none;
+    padding: auto;
+    border-radius: 5px;
+    color: white;
+}
+.form-group{
+    background-color:rgb(226, 255, 197, 0.596); ;
+}
+
+  
+.backbtn{
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+ }

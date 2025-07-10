@@ -1,0 +1,66 @@
+.homepage{
+    background-image: url(rooms.jpg);
+    background-size: cover;  
+}
+.get_startedbtn{
+    width: 200px;
+    height: 30px;
+ background-color: lawngreen;
+ border: none;
+ color: white;
+ font-weight: bold;
+ font-size: 12px;
+ border-radius: 7px;
+}
+.get_startedbtn:hover{
+    background-color:darkslateblue;
+    cursor: pointer;   
+     
+}
+.get_startedbtn:active{
+    background-color: red;
+    cursor: pointer;
+}
+.homeloginbtn{
+    width: 200px;
+    height: 30px;
+ background-color: lawngreen;
+ border: none;
+ color: white;
+ font-weight: bold;
+ font-size: 12px;
+ border-radius: 7px;
+}
+.homeloginbtn:hover{
+    background-color:darkslateblue;
+cursor: pointer;
+}
+.homeloginbtn:active{
+    background-color:red;
+cursor: pointer;
+}
+
+.buttonsdiv{
+    margin-top: 70px;
+    text-align: center;
+    justify-content: center;
+   
+    
+}
+.heading1{
+    color: lawngreen;
+    text-align: center;
+   margin-top: 200px;
+   font-size: 45px;
+}
+.heading2{
+    color: lawngreen;
+    text-align: center;
+    line-height: 5px;
+    margin-bottom: 20px;
+}
+   .homepagediv{
+    margin-bottom: 700px;
+   
+
+   }
